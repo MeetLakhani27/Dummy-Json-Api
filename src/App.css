@@ -1,0 +1,122 @@
+/* header-css-end */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px !important;
+  padding: 5px 5px;
+  color: #003d3d !important;
+  border: 2px solid #004747;
+}
+.color
+{
+  color: #000000 !important;
+  background-color: #e5efef !important;
+}
+.first {
+ 
+  color: #c9e6e6;
+  background-color: #004747;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 7.5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+   text-decoration: none;
+ }
+ 
+ 
+ .search {
+   color: #c9e6e6 !important;
+   background-color: #004747 !important;
+   border: none !important;
+   font-size: larger !important;
+   font-weight: 600 !important;
+   transition: all 0.3s;
+ }
+ 
+ .ser {
+  color: #c9e6e6 !important;
+  border: 2px solid #004747 !important;
+ }
+
+/* header-css-end */
+/* category-css-start */
+
+.line {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #c9e6e6;
+  width: 250px;
+  height: 50px; 
+}
+.line2 {
+  text-transform: capitalize;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+.inline {
+  height: 3px;
+  width: 170px;
+  background-color: #004747;
+  border-radius: 50px;
+}
+.scroll {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 800px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #003d3d;
+}
+.border {
+  border: none !important;
+}
+li {
+  /* list-style-type: none; */
+  list-style: none;
+  border-bottom: 2px solid #003d3d !important;
+}
+
+.demo {
+  display: flex;
+  background-color: #c9e6e6;
+}
+
+/* category-css-end */
+/* Product-css-start */
+
+.Product {
+  flex-wrap: wrap;
+}
+.cate {
+  background-color: #c9e6e6;
+
+}
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card {
+  width: calc(33.33% - 10px);
+  border: 1.5px solid #004747 !important;
+}
+.fix-card {
+  height: 230px;
+  
+}
+.img-fix {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+.Product-mm {
+  width: 80%;
+}
+.Product {
+  gap: 22px;
+}
+.card-title {
+  margin-bottom: 5px !important;
+}
+/* Product-css-end */
